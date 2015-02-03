@@ -19,7 +19,7 @@ See [ACSLogo For Mac OS X](http://www.alancsmith.co.uk/logo/) as a real Logo imp
 Sample usage:
 ------------
 
-    tdd_go_logo <my_logo_file>
+    ./tdd_go_logo <my_logo_file>
 
 It will output the results to a PNG file.
 
@@ -45,6 +45,7 @@ Setup:
 5. Run the example starting app:
 
     go build
+
     ./tdd_go_logo draw_square.txt
 
 6. Check the resulting image:
