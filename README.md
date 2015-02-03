@@ -8,11 +8,11 @@ Idea:
 
 Create a basic [Logo](http://en.wikipedia.org/wiki/Logo_%28programming_language%29) interpreter in Go lang.  It can just be a small subset of the language like:
 
-    * forward <pixels> 
-    * right <deg>
-    * left <deg> 
-    * penup
-    * pendown
+    forward <pixels> 
+    right <deg>
+    left <deg> 
+    penup
+    pendown
 
 See [ACSLogo For Mac OS X](http://www.alancsmith.co.uk/logo/) as a real Logo implementation and to compare your output.  ACSLogo's help menu is a handy reference for Logo commands and usage.
 
@@ -40,16 +40,16 @@ Setup:
 
 4. Install the `draw2d` package:
 
-   go get code.google.com/p/draw2d/draw2d
+    go get code.google.com/p/draw2d/draw2d
 
 5. Run the example starting app:
 
-   go build
-   ./tdd\_go\_logo draw\_square.txt
+    go build
+    ./tdd_go_logo draw_square.txt
 
 6. Check the resulting image:
 
-   open Logo-output.png 
+    open Logo-output.png 
 
 6. Start TDDing your tests for the real implementation!
 
